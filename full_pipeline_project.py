@@ -3,7 +3,7 @@ import numpy as np
 # import matplotlib.pyplot as plt
 # import seaborn as sns
 import nltk 
-nltk.download('vader_lexicon')
+# nltk.download('vader_lexicon')
 from transformers import AutoTokenizer
 from transformers import AutoModelForSequenceClassification
 from scipy.special import softmax
